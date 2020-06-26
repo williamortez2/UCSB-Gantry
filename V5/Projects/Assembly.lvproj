@@ -50,24 +50,31 @@
 				<Item Name="A3200.lvclass" Type="LVClass" URL="../../Classes/Controller/Motion/A3200/A3200.lvclass"/>
 				<Item Name="Controller.lvclass" Type="LVClass" URL="../../Classes/Controller/Controller.lvclass"/>
 			</Item>
-			<Item Name="Assembly Run" Type="Folder">
-				<Item Name="Database Assembly.lvclass" Type="LVClass" URL="../../Classes/Assembly/Database Assembly/Database Assembly.lvclass"/>
-				<Item Name="Calibrate.lvclass" Type="LVClass" URL="../../Classes/Assembly/Calibrate/Calibrate.lvclass"/>
-				<Item Name="Assembly Run.lvclass" Type="LVClass" URL="../../Classes/Assembly/Assembly Run.lvclass"/>
-			</Item>
 			<Item Name="Components" Type="Folder">
 				<Item Name="Baseplate.lvclass" Type="LVClass" URL="../../Classes/Components/Baseplate/Baseplate.lvclass"/>
 				<Item Name="Sensor.lvclass" Type="LVClass" URL="../../Classes/Components/Sensor/Sensor.lvclass"/>
 				<Item Name="PCB.lvclass" Type="LVClass" URL="../../Classes/Components/PCB/PCB.lvclass"/>
 				<Item Name="Module.lvclass" Type="LVClass" URL="../../Classes/Module/Module.lvclass"/>
 			</Item>
+			<Item Name="Assembly Run" Type="Folder">
+				<Item Name="Database Assembly.lvclass" Type="LVClass" URL="../../Classes/Assembly/Database Assembly/Database Assembly.lvclass"/>
+				<Item Name="Calibrate.lvclass" Type="LVClass" URL="../../Classes/Assembly/Calibrate/Calibrate.lvclass"/>
+				<Item Name="Assembly Run.lvclass" Type="LVClass" URL="../../Classes/Assembly/Assembly Run.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Instrument Drivers" Type="Folder">
 			<Item Name="EFD Ultimus V.lvlib" Type="Library" URL="../../Drivers/EFD Ultimus V/EFD Ultimus V.lvlib"/>
 			<Item Name="Aerotech VIs.lvlib" Type="Library" URL="../../Drivers/Aerotech A3200/Aerotech VIs.lvlib"/>
 		</Item>
+		<Item Name="Dano Practice" Type="Folder">
+			<Item Name="motioncontrol.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/motioncontrol.vi"/>
+			<Item Name="Dispenser Control.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Dispenser Control.vi"/>
+			<Item Name="Point Dispense.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Point Dispense.vi"/>
+		</Item>
+		<Item Name="Will Tutorials" Type="Folder">
+			<Item Name="Finding Baseplate Workspace.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Finding Baseplate Workspace.vi"/>
+		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
-		<Item Name="Untitled 2.vi" Type="VI" URL="../../Classes/Routine/Dispense/CAD Dispense/Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -405,9 +412,9 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
@@ -434,10 +441,10 @@
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.LabVIEW.dll"/>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.dll"/>
-			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.LabVIEW.dll"/>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../Assembly/V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../Assembly/V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
