@@ -11,9 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Main VIs" Type="Folder" URL="../../Main VIs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="SubVIs" Type="Folder" URL="../../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -67,14 +64,30 @@
 			<Item Name="Aerotech VIs.lvlib" Type="Library" URL="../../Drivers/Aerotech A3200/Aerotech VIs.lvlib"/>
 		</Item>
 		<Item Name="Dano Practice" Type="Folder">
-			<Item Name="motioncontrol.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/motioncontrol.vi"/>
+			<Item Name="Digital Write 1 channel.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Digital Write 1 channel.vi"/>
+			<Item Name="Digital Read 1 Channel.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Digital Read 1 Channel.vi"/>
+			<Item Name="Motion Control.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Motion Control.vi"/>
 			<Item Name="Dispenser Control.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Dispenser Control.vi"/>
 			<Item Name="Point Dispense.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Point Dispense.vi"/>
+			<Item Name="Vacuum Control.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Vacuum Control.vi"/>
+			<Item Name="Line Dispense.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Line Dispense.vi"/>
+			<Item Name="Vacuum Sensor.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Vacuum Sensor.vi"/>
 		</Item>
 		<Item Name="Will Tutorials" Type="Folder">
 			<Item Name="Finding Baseplate Workspace.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Finding Baseplate Workspace.vi"/>
+			<Item Name="Untitled 6.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Untitled 6.vi"/>
 		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Untitled 1.vi"/>
+		<Item Name="DAQ Assistant_0" Type="NI-DAQmx Task">
+			<Property Name="\0\ChanType" Type="Str">Digital Input</Property>
+			<Property Name="\0\DI.InvertLines" Type="Str">0</Property>
+			<Property Name="\0\Name" Type="Str">DAQ Assistant_0/DigitalIn</Property>
+			<Property Name="\0\PhysicalChanName" Type="Str">cDAQ1Mod3/port0</Property>
+			<Property Name="Channels" Type="Str">DAQ Assistant_0/DigitalIn</Property>
+			<Property Name="Name" Type="Str">DAQ Assistant_0</Property>
+			<Property Name="SampTimingType" Type="Str">On Demand</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -412,8 +425,6 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -444,7 +455,6 @@
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../Assembly/V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../Assembly/V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.dll"/>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
