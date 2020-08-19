@@ -16,24 +16,24 @@
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Fixture" Type="Folder">
-				<Item Name="Assembly Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Assembly Tray.lvclass"/>
+				<Item Name="Baseplate Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Baseplate Tray.lvclass"/>
 				<Item Name="Component Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Component/Component Tray.lvclass"/>
 				<Item Name="Current Position.lvclass" Type="LVClass" URL="../../Classes/Workspace/In Place/Current Position.lvclass"/>
-				<Item Name="Pick Up Tool Fixture.lvclass" Type="LVClass" URL="../../Classes/Workspace/Pick Up Tool Area/Pick Up Tool Fixture.lvclass"/>
+				<Item Name="Pick Up Tool.lvclass" Type="LVClass" URL="../../Classes/Workspace/Pick Up Tool Area/Pick Up Tool.lvclass"/>
 				<Item Name="Syringe Space.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Syringe Space/Syringe Space.lvclass"/>
 				<Item Name="Fixture.lvclass" Type="LVClass" URL="../../Classes/Workspace/Fixture.lvclass"/>
 			</Item>
 			<Item Name="Routines" Type="Folder">
 				<Item Name="Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Dispense.lvclass"/>
-				<Item Name="CAD Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/CAD Dispense.lvclass"/>
-				<Item Name="Iterative Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/Iterative Dispense.lvclass"/>
+				<Item Name="Sensor Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/Sensor Dispense.lvclass"/>
+				<Item Name="Baseplate Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/Baseplate Dispense.lvclass"/>
 				<Item Name="Pick and Place.lvclass" Type="LVClass" URL="../../Classes/Routine/Pick and Place/Pick and Place.lvclass"/>
 				<Item Name="SecureRelease Syringe.lvclass" Type="LVClass" URL="../../Classes/Routine/Secure Syringe/SecureRelease Syringe.lvclass"/>
 				<Item Name="Routine.lvclass" Type="LVClass" URL="../../Classes/Routine/Routine.lvclass"/>
-				<Item Name="6 inch CAD Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/6 inch CAD Dispense.lvclass"/>
-				<Item Name="8 Inch CAD Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/8 Inch CAD Dispense.lvclass"/>
-				<Item Name="6 Inch Iterative Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/6 inch/6 Inch Iterative Dispense.lvclass"/>
-				<Item Name="8 Inch Iterative Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/8 inch/8 Inch Iterative Dispense.lvclass"/>
+				<Item Name="6 Inch Sensor Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/6 Inch Sensor Dispense.lvclass"/>
+				<Item Name="8 inch Sensor Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/8 inch Sensor Dispense.lvclass"/>
+				<Item Name="6 inch Baseplate Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/6 inch/6 inch Baseplate Dispense.lvclass"/>
+				<Item Name="8 inch Baseplate Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/8 inch/8 inch Baseplate Dispense.lvclass"/>
 			</Item>
 			<Item Name="Controllers" Type="Folder">
 				<Item Name="Edmund Optics.lvclass" Type="LVClass" URL="../../Classes/Controller/Camera/Edmund Optics/Edmund Optics.lvclass"/>
@@ -82,17 +82,35 @@
 			</Item>
 			<Item Name="Assembly Routines" Type="Folder">
 				<Item Name="Pick and Place Tool.vi" Type="VI" URL="../../Training/Pick and Place Tool.vi"/>
-				<Item Name="Locate Sensor.vi" Type="VI" URL="../../Training/Locate Sensor.vi"/>
+				<Item Name="Sensor Locate.vi" Type="VI" URL="../../Training/Sensor Locate.vi"/>
 			</Item>
-			<Item Name="Camera" Type="Folder">
-				<Item Name="Camera Joystick.vi" Type="VI" URL="../../Training/Camera Joystick.vi"/>
+			<Item Name="Camera" Type="Folder"/>
+			<Item Name="Object Oriented " Type="Folder">
+				<Item Name="Pick and place V2.vi" Type="VI" URL="../../Training/Pick and place V2.vi"/>
+				<Item Name="Locating Sensor.vi" Type="VI" URL="../../Dano/Locating Sensor.vi"/>
+				<Item Name="Locate Baseplate.vi" Type="VI" URL="../../Dano/Locate Baseplate.vi"/>
+				<Item Name="Dispensing on baseplate.vi" Type="VI" URL="../../Dano/Dispensing on baseplate.vi"/>
+				<Item Name="Dispense on kapton.vi" Type="VI" URL="../../Classes/Routine/Dispense/CAD Dispense/Dispense on kapton.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Will Tutorials" Type="Folder">
 			<Item Name="Finding Baseplate Workspace.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Finding Baseplate Workspace.vi"/>
 			<Item Name="Untitled 6.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Untitled 6.vi"/>
 		</Item>
+		<Item Name="Main VIs" Type="Folder">
+			<Item Name="Joystick and Camera.vi" Type="VI" URL="../../Main VIs/Joystick and Camera.vi"/>
+			<Item Name="Manual Assembly.vi" Type="VI" URL="../../Main VIs/Manual Assembly.vi"/>
+			<Item Name="Progammable Assembly.vi" Type="VI" URL="../../Main VIs/Progammable Assembly.vi"/>
+			<Item Name="I-O Test.vi" Type="VI" URL="../../Main VIs/I-O Test.vi"/>
+			<Item Name="Calibrate.vi" Type="VI" URL="../../Main VIs/Calibrate.vi"/>
+		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../Training/Untitled 1.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../../Training/Untitled 2.vi"/>
+		<Item Name="Stop.vi" Type="VI" URL="../../Stop.vi"/>
+		<Item Name="Untitled 3.vi" Type="VI" URL="../../Dano/Untitled 3.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../Dano/Untitled 1.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../Classes/Routine/Dispense/CAD Dispense/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -431,7 +449,8 @@
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="IVA Clear Coordsys Errors.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Clear Coordsys Errors.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
