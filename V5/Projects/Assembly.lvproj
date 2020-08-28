@@ -16,9 +16,9 @@
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Fixture" Type="Folder">
-				<Item Name="Baseplate Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Baseplate Tray.lvclass"/>
 				<Item Name="Component Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Component/Component Tray.lvclass"/>
 				<Item Name="Current Position.lvclass" Type="LVClass" URL="../../Classes/Workspace/In Place/Current Position.lvclass"/>
+				<Item Name="Assembly Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Assembly Tray.lvclass"/>
 				<Item Name="Pick Up Tool.lvclass" Type="LVClass" URL="../../Classes/Workspace/Pick Up Tool Area/Pick Up Tool.lvclass"/>
 				<Item Name="Syringe Space.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Syringe Space/Syringe Space.lvclass"/>
 				<Item Name="Fixture.lvclass" Type="LVClass" URL="../../Classes/Workspace/Fixture.lvclass"/>
@@ -103,14 +103,14 @@
 			<Item Name="Progammable Assembly.vi" Type="VI" URL="../../Main VIs/Progammable Assembly.vi"/>
 			<Item Name="I-O Test.vi" Type="VI" URL="../../Main VIs/I-O Test.vi"/>
 			<Item Name="Calibrate.vi" Type="VI" URL="../../Main VIs/Calibrate.vi"/>
+			<Item Name="Build Module.vi" Type="VI" URL="../Build Module.vi"/>
 		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../Training/Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../../Training/Untitled 2.vi"/>
 		<Item Name="Stop.vi" Type="VI" URL="../../Stop.vi"/>
 		<Item Name="Untitled 3.vi" Type="VI" URL="../../Dano/Untitled 3.vi"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../../Dano/Untitled 1.vi"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../../Classes/Routine/Dispense/CAD Dispense/Untitled 1.vi"/>
+		<Item Name="Status.vi" Type="VI" URL="../../Status.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -480,6 +480,7 @@
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../Assembly/V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../Old Projects/V1 Johan Detector Assembly Project Pre-TypeDef/VIs/Low-Level Instrument VIs/Aerotech/Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../Assembly/V4/Drivers/Aerotech A3200/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Baseplate Tray.lvclass" Type="LVClass" URL="../../Classes/Workspace/Carrier Tray/Baseplate Tray.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
