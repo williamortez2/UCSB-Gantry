@@ -104,6 +104,7 @@
 			<Item Name="I-O Test.vi" Type="VI" URL="../../Main VIs/I-O Test.vi"/>
 			<Item Name="Calibrate.vi" Type="VI" URL="../../Main VIs/Calibrate.vi"/>
 			<Item Name="Build Module.vi" Type="VI" URL="../Build Module.vi"/>
+			<Item Name="Build Module v2.vi" Type="VI" URL="../../Main VIs/Build Module v2.vi"/>
 		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../Training/Untitled 1.vi"/>
