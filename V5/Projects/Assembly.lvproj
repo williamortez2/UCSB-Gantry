@@ -67,8 +67,9 @@
 			<Item Name="Aerotech VIs.lvlib" Type="Library" URL="../../Drivers/Aerotech A3200/Aerotech VIs.lvlib"/>
 		</Item>
 		<Item Name="Dano Practice" Type="Folder">
-			<Item Name="motioncontrol.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/motioncontrol.vi"/>
-			<Item Name="Dispenser Control.vi" Type="VI" URL="../../../../../Assembly/V5/Dano/Dispenser Control.vi"/>
+			<Item Name="Dispensing" Type="Folder">
+				<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Will Tutorials" Type="Folder">
 			<Item Name="Finding Baseplate Workspace.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Finding Baseplate Workspace.vi"/>
