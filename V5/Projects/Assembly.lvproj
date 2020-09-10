@@ -68,13 +68,15 @@
 		</Item>
 		<Item Name="Dano Practice" Type="Folder">
 			<Item Name="Dispensing" Type="Folder">
-				<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+				<Item Name="HGCROC Glue Testing.vi" Type="VI" URL="../HGCROC Glue Testing.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Will Tutorials" Type="Folder">
 			<Item Name="Finding Baseplate Workspace.vi" Type="VI" URL="../../../../../Assembly/V5/Will Tutorials/Finding Baseplate Workspace.vi"/>
 		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../Classes/Routine/Dispense/CAD Dispense/Untitled 1.vi"/>
+		<Item Name="Untitled 5.vi" Type="VI" URL="../../Classes/Routine/Dispense/Iterative Dispense/8 inch/Untitled 5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
